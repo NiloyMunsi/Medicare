@@ -1,0 +1,15 @@
+.footer-container{
+    background-color: rgb(170, 168, 168);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    width: 100%;
+}
+
+@media (min-width: 360px) and (max-width: 1199.98px) { 
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+    }
+}

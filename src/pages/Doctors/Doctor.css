@@ -1,0 +1,29 @@
+.cover-pic{
+    height: 150px;
+    width: 150px;
+}
+.doctors-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    margin: 100px;
+}
+.dr{
+    /* border: 2px solid #1d3557; */
+    padding: 10px;
+    border-radius: 5px;
+    /* background-color:rgb(220, 240, 247); */
+}
+.dr img {
+    border-radius: 50%;
+}
+
+@media (min-width: 360px) and (max-width: 1199.98px) { 
+    .doctors-container{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        padding: 5px;
+    }
+}

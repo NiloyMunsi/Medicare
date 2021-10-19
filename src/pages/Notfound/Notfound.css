@@ -1,0 +1,13 @@
+.notfound{
+    height: 400px;
+    width: 500px;
+}
+.btn{
+    margin: 10px;
+}
+@media (min-width: 360px) and (max-width: 1199.98px) { 
+    .notfound{
+        height: 200px;
+        width: 300px;
+    }
+}
