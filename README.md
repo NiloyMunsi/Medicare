@@ -3,8 +3,8 @@
 live link- https://medicare-services.web.app
 
 key points-
-1.find best doctors
-2.find out world class treatment
-3.online data store
-4.make an appoinment
-5.know details about any service
+•	Find Best Doctors.
+•	Find out world class doctors.
+•	Know details about any services we provide.
+Technologies : ReactJs, Firebase, Bootstrap, HTML & CSS.
+
